@@ -1,0 +1,72 @@
+.t-wrapper {
+	padding: 0 3rem 0 3rem;
+	display: flex;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	position: relative;
+	flex-direction: column;
+	margin-top: 7rem;
+}
+
+.t-heading {
+	align-self: flex-start;
+}
+
+.t-heading > * {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.t-heading span:nth-of-type(2) {
+	color: var(--orange);
+}
+
+.t-blur1 {
+	left: 38rem;
+	top: 16rem;
+}
+
+.t-blur1 {
+	left: 0;
+	top: 19rem;
+}
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 2rem;
+	width: 30rem;
+	height: 12rem;
+	background: rgba(255, 255, 255, 0.26);
+	border: 7px solid var(--blueCard);
+	box-sizing: var(--boxShadow);
+	border-radius: 20px;
+}
+
+.testimonial > img {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 100%;
+	object-fit: cover;
+}
+
+.testimonial > span {
+	color: var(--gray);
+}
+
+.t-wrapper .swipper {
+	width: 100%;
+	height: 70%;
+}
+
+/* .t-wrapper .swiper-slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} */

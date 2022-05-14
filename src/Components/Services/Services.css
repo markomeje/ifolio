@@ -1,0 +1,46 @@
+.services {
+        padding: 0 3rem 0 3rem;
+        display: flex;
+        height: 90vh;
+        margin: 9rem 0 16rem;
+}
+
+.awesome {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+}
+
+.awesome>:nth-child(1) {
+        font-size: 2.5rem;
+        color: var(--black);
+        font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+        font-size: 2.5rem;
+        color: var(--orange);
+        font-weight: bold;
+}
+
+.awesome>:nth-child(3) {
+        font-size: 16px;
+        color: var(--gray);
+        margin-top: 1rem;
+}
+
+.s-button {
+        width: 8rem;
+        height: 2rem;
+        margin-top: 1rem;
+}
+
+.s-blur2 {
+        left: 14rem;
+        top: 8rem;
+}
+
+.s-blur1 {
+        left: -18rem;
+        top: 13rem;
+}

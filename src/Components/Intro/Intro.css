@@ -1,0 +1,102 @@
+.intro {
+        display: flex;
+        height: 77vh;
+        margin-top: 6rem;
+}
+
+.intro-left {
+        display: flex;
+        /* position: absolute; */
+        flex: 1;
+        flex-direction: column;
+}
+
+.intro-right {
+        display: flex;
+        flex: 1;
+        position: relative;
+}
+
+.intro-right>* {
+        position: absolute;
+        z-index: 1;
+}
+
+.intro-name {
+        display: flex;
+        flex-direction: column;
+}
+
+.intro-name>:nth-child(1) {
+        color: var(--black);
+        font-weight: bold;
+        font-size: 3rem;
+}
+
+.intro-name>:nth-child(2) {
+        color: var(--orange);
+        font-weight: bold;
+        font-size: 3rem;
+}
+
+.intro-title {
+        color: var(--gray);
+        font-size: 18px;
+        font-weight: 100;
+        margin: 10px 0 14px;
+}
+
+.intro-button {
+        width: 6rem;
+        height: 2rem;
+}
+
+.intro-icons {
+        margin-top: 2rem;
+}
+
+.intro-icons>* {
+        transform: scale(0.5);
+}
+
+.intro-icons>*:hover {
+        cursor: pointer;
+}
+
+.intro-right>:nth-child(1) {
+        transform: scale(0.69);
+        left: -15%;
+        top: -9%;
+}
+
+.intro-right>:nth-child(2) {
+        transform: scale(0.67);
+        left: -3rem;
+        top: -4.6rem;
+}
+
+.intro-right>:nth-child(3) {
+        transform: scale(1.4);
+        left: 28%;
+}
+
+.intro-right>:nth-child(4) {
+        transform: scale(0.6);
+        left: -24%;
+        top: -19%;
+        border-radius: 50%;
+        padding: 0;
+}
+
+.blur {
+        position: absolute;
+        width: 22rem;
+        height: 14rem;
+        border-radius: 50%;
+        
+        background: #edd0ff;
+        filter: blur(72px);
+        z-index: -9;
+        top: -18%;
+        left: 56%;
+}
